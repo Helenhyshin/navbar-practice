@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: pink;
+  width: 100%;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+li {
+  display: inline-block;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.push {
+  margin-left: auto;
+}
+
+.left {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right {
+  justify-content: flex-end;
+}
